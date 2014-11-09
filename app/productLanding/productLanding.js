@@ -1,9 +1,9 @@
 module.exports = function(){
 	return {
-		route: '/',
+		route: '/productLanding',
 		routeVerb: 'get',
     postProcessor: function(req,res){      
-      res.end('Welcome To My Site Home');
+      res.end('Welcome To My Site Product Landing');
     }
 	}
 }
